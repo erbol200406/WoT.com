@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <link rel="stylesheet" href="/site.projesi/css/database.css">
+</head>
+<body>
+    <section class="photo-gallery">
+        <section class="section">
+            <div class="container">
+                <div class="about-us">
+                    <div class="about-us__desc">
+                        <h3 class="about-us__title">VERİ TABANI NEDİR?</h3>
+                        <p class="about-us__text">
+                        Veritabanları, yapılandırılmış bilgi veya verilerin depolandığı alanlardır.
+                        Bilgi artışıyla birlikte bilgisayarda bilgi depolama ve bilgiye erişim konularında yeni yöntemlere 
+                        ihtiyaç duyulmuştur. Veritabanları; büyük miktardaki bilgileri depolamada geleneksel yöntem olan 
+                        "dosya-işlem sistemine" alternatif olarak geliştirilmiştir. Telefonlardaki kişi rehberi günlük hayatta
+                        çok basit bir şekilde kullanılan veritabanı örneği olarak kabul edilebilir. Bunların dışında internet 
+                        sitelerindeki üyelik sistemleri, akademik dergilerin ve üniversitelerin tez yönetim sistemleri de veritabanı
+                        kullanımına örnektir. Veritabanları sayesinde bilgilere ulaşılabilir ve onları düzenlenebilir. Veritabanları 
+                        genellikle bireysel olarak satın alınamayacak kadar yüksek meblağlara sahip olmasına karşın; ücretsiz kullanıma 
+                        açılan akademik veritabanları da bulunmaktadır. Akademik veritabanları aracılığıyla bazen bibliyografik bilgi bazen
+                        de tam metinlere erişmek mümkündür. Veritabanları, veritabanı yönetim sistemleri aracılığıyla oluşturulur ve yönetilir.
+                            </p>
+                        
+                        <button class="button-more" id="read-more-btn">devamını oku</button>
+                    </div>
+                    <!-- Fotoğraf Slider -->
+                    <div class="photo-slider-container">
+                        <button class="slider-btn left" id="prev-btn">&#10094;</button>
+                        <div class="photo-slider" id="photo-slider">
+                            <img src="/site.projesi/img/web24.jpeg" alt="Fotoğraf 1" class="slider-img">
+                            <img src="/site.projesi/img/web25.jpeg" alt="Fotoğraf 2" class="slider-img">
+                            <img src="/site.projesi/img/web26.jpeg" alt="Fotoğraf 3" class="slider-img">
+                        </div>
+                        <button class="slider-btn right" id="next-btn">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Pop-up -->
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <p>
+                Bu sistemlere; Microsoft Access, MySQL, IBM DB2, Informix, Interbase, Microsoft SQL Server, PostgreSQL, Oracle ve Sysbase örnek olarak verilebilir. 21. yüzyılda, farklı sorgulama dilleri etkin ve verimli bir şekilde kullanılabildiği için ilişkisel olmayan veritabanları popüler hâle gelmiştir.
+            </p>
+
+            <p class="B5" style="color: blueviolet; font-weight: 350; font-size: 20px;">
+                Veritabanı yöneticiliği
+            </p>
+
+            <p>
+                Günümüzde veritabanı sistemleri, bankacılıktan otomotiv sanayisine, sağlık bilgi sistemlerinden şirket yönetimine, telekomünikasyon sistemlerinden hava taşımacılığına, çok geniş alanlarda kullanılan bilgisayar sistemlerinin altyapısını oluşturmaktadır. Veritabanı fiziksel olarak bilgileri tutarken mantıksal bir hiyerarşiye de sahiptir. Veritabanı sistemlerinin kurulumu, konfigürasyonu, düzeni, sorgulaması, güvenliği ve denetiminin karmaşık bir hâl alması veritabanı yöneticiliği kavramının oluşmasına neden olmuştur. Bir veritabanı yöneticisi mantıksal data modelleme, fiziksel veritabanı dizaynı çıkarma, fiziksel olarak veritabanı oluşturma, Transact-SQL kullanarak sorgu yazma, Microsoft SQL Server kurulumu ve yapılandırılması, güvenlik yönetimi ve yapılandırılması, veritabanı yönetimi ve bakımı, veritabanı denetleme ve optimize etme işlerini üstlenir.
+            </p>
+            <div class="popup-buttons">
+                <button id="close-popup">Kapat</button>
+                <a href="https://bulutistan.com/blog/veri-tabani-nedir/" target="_blank" id="details-btn">Detaylı Bilgi</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/site.projesi/js/database.js"></script>
+</body>
+</html>
